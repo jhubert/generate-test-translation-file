@@ -135,9 +135,3 @@ destination.language_code = output_language
 destination.data = source.data
 
 destination.write!
-
-#if !File.exists?("config/locales/#{output_language}.yml")
-#  puts "Creating output language file"
-#  File.new("config/locales/#{output_language}.yml", 'w')
-#end
-#
